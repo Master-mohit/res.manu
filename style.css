@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+#main{
+    max-width: 100%;
+    height: 100%;
+    padding: 20px 10px;
+}
+#main h1{
+    text-align: center;
+}
+#heading ul{
+    margin: 12px;
+}
+ol {
+    margin-left: 20px;
+}
+#box{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+#box #respi{
+    width: 70%;
+}
+#box img{
+    width: 12%;
+    height: 20%;
+   margin-bottom: 14px;
+   
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
